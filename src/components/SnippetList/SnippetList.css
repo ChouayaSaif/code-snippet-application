@@ -1,0 +1,71 @@
+.snippet-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.snippet-list-empty {
+  color: #888;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.snippet-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 1.5rem;
+  min-width: 320px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.snippet-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.snippet-lang {
+  background: #282c34;
+  color: #fff;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 5px;
+}
+
+.snippet-description {
+  font-size: 1rem;
+  margin: 0.6rem 0 1rem 0;
+  color: #444;
+}
+
+.snippet-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.7rem;
+}
+
+.snippet-actions button {
+  padding: 0.4rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  background: #1976d2;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.snippet-actions button.danger {
+  background: #d32f2f;
+}
+
+.snippet-actions button:hover {
+  opacity: 0.8;
+}
